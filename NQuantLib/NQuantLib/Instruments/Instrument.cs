@@ -9,6 +9,7 @@ namespace NQuantLib.Instruments {
         protected decimal? NPV = null;
         protected Dictionary<string, object> additionalResultsMap = new Dictionary<string, object>();
         protected decimal? errorEstimateValue = null;
+        //use money at all (with currency)
 
         protected IPricingEngine pricingEngine;
         //TODO: protected Date valuationDate;
